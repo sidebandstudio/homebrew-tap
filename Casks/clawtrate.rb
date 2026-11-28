@@ -1,9 +1,9 @@
 cask "clawtrate" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.1-beta.20261128.14"
-  sha256 arm:   "e30119397c1644fbbf02676d9dc25153394adf227d39dbdea9a91c782622f754",
-         intel: "54dcacddf492ec36de4a57cf5ce695db12a11639c9372561404b7e1b15d505ac"
+  version "0.1.1-beta.20261128.15"
+  sha256 arm:   "90bff458322d350c1845aa71c8c6ce9b04063071c44b76b81b999f415b4d4717",
+         intel: "2e843d6209376c12c065253a08a662328299ed440524cd9686f20ce2f786f960"
 
   url "https://github.com/sidebandstudio/clawtrate/releases/download/v#{version}/Clawtrate-#{version}-mac-#{arch}.zip"
   name "Clawtrate"
